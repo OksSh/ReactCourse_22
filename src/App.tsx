@@ -11,7 +11,7 @@ function App() {
     <div className='container mx-auto max-w-2xl pt-5'>
       {loading && <Loader />}
       {error && <Error error={error} />}
-      <Modal>
+      <Modal title='Create new product'>
         <CreateProduct />
       </Modal>
       {products.map((item) => (
