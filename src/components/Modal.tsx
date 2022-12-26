@@ -18,5 +18,3 @@ export function Modal({ children, title, onClose }: ModalProps) {
     </>
   );
 }
-
-// 'w-[500px] p-5 rounded bg-white absolute top-10 left-1/2 -translate-x-1/2'
